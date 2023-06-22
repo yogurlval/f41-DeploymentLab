@@ -1,6 +1,7 @@
 header {
-    height: 200px;
+    height: 250px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: palevioletred;
@@ -11,6 +12,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-image: url(https://www.pngitem.com/pimgs/m/647-6474277_doge-meme-white-background-hd-png-download.png);
 }
 
 img {
@@ -25,10 +27,15 @@ img {
 
 .ad:hover{
     background-color: lightcoral;
+    opacity: 95%
 }
 
 div {
     margin: 40px;
+    background-color: white;
+    opacity: 95%
+    
+    
 }
 
 p {
