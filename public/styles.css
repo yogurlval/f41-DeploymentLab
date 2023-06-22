@@ -1,0 +1,43 @@
+header {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 400px;
+    padding: 30px;
+}
+
+.ad{
+    border: 1px black dotted;
+    padding: 40px;
+}
+
+.ad:hover{
+    background-color: lightcoral;
+}
+
+div {
+    margin: 40px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#price{
+    font-weight: 1000;
+}
